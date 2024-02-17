@@ -1,0 +1,121 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+h1{
+	text-align:center;
+	margin-top:20px;
+}
+h2{
+	text-align:center;
+}
+.home{
+	height:150px;
+	width:100%;
+	margin-top:50px;
+	margin-left:80px;
+}
+.home img{
+	height:170px;
+	width:170px;
+	float:right;
+	margin-right:140px;
+	position:relative;
+	
+}
+.home table tr td{
+	font-family:arial;
+	display:block;
+}
+.education{
+	height:200px;
+	width:100%;
+}
+.education h2{
+	margin-top:50px;
+}
+.education p{
+	text-align:center;
+}
+.education table{
+	margin-top:20px;
+	width:100%;
+}
+.education table tr td{
+	height:40px;
+	text-align:center;
+}
+.service{
+	margin-top:80px;
+	width:100%;
+	
+}
+.service p{
+	margin-top:20px;
+	margin-left:400px;
+	width:800px;
+	text-align:center;
+}
+.service input{
+	margin-top:30px;
+	position:relative;
+	left:735px;
+	background-color:gray;
+	color:white;
+	border:none;
+	height:50px;
+	width:80px;
+	border-radius:10px;
+	font-family:cursive;
+	font-weight:bolder;
+}
+.service input:hover{
+	background:blue;
+}
+.contact{
+	margin-top:40px;
+}
+.contact .one{
+	margin-top:20px;
+	margin-left:600px;
+	height:40px;
+	width:310px;
+	border:1px solid black;
+}
+.contact .two{
+	margin-top:20px;
+	margin-left:600px;
+	height:40px;
+	width:310px;
+	border:1px solid black;
+}
+.contact .three{
+	border-color:black;
+	margin-top:20px;
+	margin-left:600px;
+}
+.contact .four{
+	margin-top:30px;
+	position:relative;
+	left:170px;
+	background-color:gray;
+	color:white;
+	border:none;
+	height:50px;
+	width:80px;
+	border-radius:10px;
+	font-family:cursive;
+	font-weight:bolder;
+}
+.contact .four:hover{
+	background:blue;
+}
+.contact input{
+	margin-top:10px;
+	margin-left:550px;
+	height:20px;
+}
+::placeholder{
+	padding-left:20px;
+}
